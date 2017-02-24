@@ -2,4 +2,4 @@ Third commit: The header and footer have been constructed and will be moving ont
 
 fourth commit: adds the image slideshow and the mobile navigation 
 
-fifth commit: fi
+fifth commit: finished homepage 
