@@ -152,8 +152,9 @@ header a:hover {
     color: #cccccc;
     font-weight: bold;
 }
+/*end header*/
 
-/* Showcase */
+/* newsletter secion */
 
 #sub-text {
     width: 60%;
@@ -181,10 +182,29 @@ header a:hover {
     height: 25px;
     width: 250px;
 }
+/*end newsletter*/
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+/*end box section*/
 /*Footer*/
 footer {
-    padding: 15px;
-    margin-top: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: black 3px solid;
     color: #ffffff;
     background-color: #628395;
     text-align: center;
@@ -200,7 +220,7 @@ footer {
  .social i{
  	font-size: 460%;
  	margin: 1%;
- 	padding: 5% 5% 5% 4%;
+ 	padding: 1% 1% 1% 1%;
  	color: #C3D7DF;
  }
  .social i:hover {
