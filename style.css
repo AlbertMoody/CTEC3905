@@ -11,6 +11,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   margin: auto;
 }
 
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -166,6 +167,7 @@ header a:hover {
     padding: 15 px;
     color: #ffffff;
     background: #35424a;
+   
 }
 
 #newsletter h1 {
@@ -227,14 +229,27 @@ footer {
  	color: #F5F5F5
 }
 /* End footer*/
-/* Media Queries */
 
+
+/* overwatch page video */
+.owvideo {
+  max-width: 1400px;
+  width: 100%; 
+  max-height: 1400px;    
+  position: relative;   
+  margin: auto;
+}
+
+
+/* Media Queries */
 @media(max-width: 768px) {
     
     header #branding, 
-    header nav, 
-    header nav li, 
-    #newsletter h1, 
+    header nav,      
+    header nav li,
+    #newsletter h1,
+    .owvideo,
+    .polaroid,
     #newsletter form, 
     #boxes .box,
     article#main-col,
@@ -243,10 +258,13 @@ footer {
         text-align: center;
         width: 100%;
     }
-
+    footer p {
+        font-size: 150%;
+    }
     header {
         padding-bottom: 20px;
     }
+    
 
     header nav ul {
         margin-top: 25px;
@@ -259,7 +277,7 @@ footer {
    header nav:hover ul {
        display: block; 
     }
-    
+  
     nav ul, nav:active ul{      
         display: none;
         z-index: 1000;
@@ -271,9 +289,11 @@ footer {
         width: 100%;
         border-radius: 3px 0 3px 3px;
     }
-
+    
+    
+   
     .social i {
- 			font-size: 180%;
+ 			font-size: 350%;
  		}
 }
 
@@ -281,3 +301,43 @@ footer {
     font-family: srcl;
     src: url('../fonts/sourcelight.otf');
 }
+
+.polaroid {
+  position: relative;
+  width: 220px;
+  display: inline-block;  
+  margin: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+ 
+.polaroid img {
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 20px 20px 20px #777;
+     -moz-box-shadow: 20px 20px 20px #777;
+          box-shadow: 0.6px 5px 5px 5px #777;
+}
+ 
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: black;
+
+}
+     .polaroid img{
+        width: 200px;
+        height: 200px;
+    }
+
+.hero h1 {
+    text-align: center;
+    background-color: #628395;
+    border-top: black 5px solid;
+     border-bottom: black 5px solid;
+        color: white;
+}
+
