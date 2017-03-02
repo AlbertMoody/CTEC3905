@@ -302,11 +302,12 @@ footer {
     src: url('../fonts/sourcelight.otf');
 }
 
+/* polaroid character section*/
 .polaroid {
   position: relative;
   width: 220px;
   display: inline-block;  
-  margin: 25px;
+  margin: 50px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -333,11 +334,70 @@ footer {
         height: 200px;
     }
 
+.polaroid {
+  -webkit-transition: all 0.7s ease;
+     -moz-transition: all 0.7s ease;
+       -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+          transition: all 0.7s ease;
+}
+ 
+.polaroid:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+
 .hero h1 {
     text-align: center;
     background-color: #628395;
     border-top: black 5px solid;
      border-bottom: black 5px solid;
         color: white;
+}
+
+/* polaroid charcter section end*/
+
+.teams {
+    margin: 35px;
+    width: 215px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.teams {
+     -webkit-animation-name: spinner; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-duration: 5s; 
+    animation-name: spinner; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; 
+    animation-duration: 5s; 
+    -webkit-transform-style: preserve-3d; 
+    -moz-transform-style: preserve-3d; 
+    -ms-transform-style: preserve-3d; 
+    transform-style: preserve-3d;
+}
+
+@keyframes spinner { 
+    from { 
+        -moz-transform: rotateY(0deg); 
+        -ms-transform: rotateY(0deg); 
+        transform: rotateY(0deg); 
+    } 
+    to 
+    { 
+        -moz-transform: rotateY(-360deg); 
+        -ms-transform: rotateY(-360deg); 
+        transform: rotateY(-360deg); 
+    
+    } 
 }
 
