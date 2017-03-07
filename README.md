@@ -37,3 +37,7 @@
 <h2>Nineth commit</h2>
 
 <p> The text has been added for the destiny page which will later be edited with the css, an aside section will also be implemented on this page to show the full effect of html5</p>
+
+<h2>Tenth commit</h2>
+
+<p> The aside section has be added to the "destiny" page with an form element for users to submit requests regarding reviews, for the next commit i will be using iframe elements to embed youtube videos instead of using an actual video tag. Along side this a google maps API function will be added for third party features</p>
