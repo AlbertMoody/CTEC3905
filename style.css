@@ -288,6 +288,13 @@ footer {
     .social i {
  			font-size: 290%;
  		}
+    
+    #googleMap {
+        
+        width: 100%;
+        height: 75%;
+    }
+    
 }
 
 @font-face {
@@ -495,6 +502,7 @@ ul#services li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 
 
 

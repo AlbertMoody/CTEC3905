@@ -1,3 +1,5 @@
+<h1>P14155058</h1>
+
 <p>For the second assignment for CTEC3905 I have decided to construct a game review website which uses the fundamentals of HTML5, CSS3 and Javascript. GITHUB will be used to show progess of my work by commiting as much as i can.</p> 
 
 <h1>Commit history</h1>
@@ -12,7 +14,7 @@
 
 <h2>Third commit </h2> 
 
-<p>The header and footer have been constructed and will be moving onto the main body of each website page</p> 
+<p>The header and footer have been constructed, the footer displays font awsome icons for the represented social media website and the header includes the responsive navigation bar for the next commit will be moving onto the main body of each website page</p> 
 
 <h2>fourth commit</h2>
 
@@ -32,7 +34,7 @@
 
 <h2>Eighth commit</h2> 
 
-<p>Finished fifa icons which use a -360 degree animation with basic <a herf></a> links which have been optimized using CSS3 by changing border sizes, padding and colour scheme. </p>  
+<p>Finished fifa icons which use a -360 degree animation with basic "a herf" links which have been optimized using CSS3 by changing border sizes, padding and colour scheme. </p>  
 
 <h2>Nineth commit</h2>
 
@@ -41,3 +43,7 @@
 <h2>Tenth commit</h2>
 
 <p> The aside section has be added to the "destiny" page with an form element for users to submit requests regarding reviews, for the next commit i will be using iframe elements to embed youtube videos instead of using an actual video tag. Along side this a google maps API function will be added for third party features</p>
+
+<h2> Eleventh commit</h2>
+
+<P> In this commit the google maps API has been added to the homepage and has been made responsive to fit the screen at all times, however it does not any advanced features such as a set point on the map. It was created by using javascript but did not become functionally until an API key was obtained from the google developers website. Other development that was made in this commit was iframe videos from youtube being added to the "destiny" page. For the next commit the social media buttons that were added earlier will all link to their respected websites. </P>
