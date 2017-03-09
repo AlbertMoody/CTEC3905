@@ -51,3 +51,21 @@
 <h2>Twelfth commit</h2>
 
 <p>The footer links have been adjusted to suit the selected icon on each page. For the next commits the intial designs with be added to this README.md file </p>
+
+
+ <h1>Wireframes/Intial Designs</h1>
+ 
+ <P>The images and diagrams below are the design I constructed online for how i wanted my to look like. These include a number of wireframes that show what the designs look like on a computer, tablet and a phone</P>
+ 
+ 
+ <h3> Homepage designs</h3>
+ <img src="images/intial1.png"> 
+ <img src="images/initial2.png">
+ 
+ <h3>Mobile Responsive design</h3>
+ <img src="images/mobileview.png">
+ 
+ 
+ 
+ 
+ 
