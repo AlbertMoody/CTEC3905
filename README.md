@@ -47,3 +47,7 @@
 <h2> Eleventh commit</h2>
 
 <P> In this commit the google maps API has been added to the homepage and has been made responsive to fit the screen at all times, however it does not any advanced features such as a set point on the map. It was created by using javascript but did not become functionally until an API key was obtained from the google developers website. Other development that was made in this commit was iframe videos from youtube being added to the "destiny" page. For the next commit the social media buttons that were added earlier will all link to their respected websites. </P>
+
+<h2>Twelfth commit</h2>
+
+<p>The footer links have been adjusted to suit the selected icon on each page. For the next commits the intial designs with be added to this README.md file </p>
