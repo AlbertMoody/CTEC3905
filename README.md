@@ -60,12 +60,18 @@
  
  <h3> Homepage designs</h3>
  <img src="images/intial1.png"> 
- <img src="images/initial2.png">
+ 
+ <img src="images/initial2.png" width="300px" height="500px">
+ 
+ <p>The two images of the homepage are designs that were first considered for the look of the website. These were the most important as the homepage sets the tone for the rest of the website</p>
  
  <h3>Mobile Responsive design</h3>
  <img src="images/mobileview.png">
+ <img src="images/mobileview2.png">
  
- 
+ <p>the first image is a simplified look at how the mobile view of the website would look like and the imahe beneth is a more detailed look at the page and all its contents, this is subject to chage as development goes on</p>
+
+ <h3>Tablet view</h3>
  
  
  
