@@ -61,7 +61,7 @@
  <h3> Homepage designs</h3>
  <img src="images/intial1.png"> 
  
- <img src="images/initial2.png" width="300px" height="500px">
+ <img src="images/initial2.png" width="500px" height="500px">
  
  <p>The two images of the homepage are designs that were first considered for the look of the website. These were the most important as the homepage sets the tone for the rest of the website</p>
  

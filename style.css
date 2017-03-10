@@ -40,6 +40,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 
 /* Fading animation */
+/* fading animation for the automatic slideshow, this codes specifies how long the fade last and how intense the fade actually is */ 
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -56,6 +57,8 @@ body {font-family: Verdana,sans-serif;margin:0}
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+/* the body for the css defines how the whole background and fundamentals of the website will look  */
 
 body {
     font-family: Arial;
@@ -124,7 +127,7 @@ header nav {
 }
 
 #menu-icon{
-    display: hidden;
+    display: hidden;                 /* navigation icon for the mobile/tablet view for when the screen smaller */
     width: 40px;
     height: 40px;
     background: url(images/nav.png) center;
@@ -233,6 +236,8 @@ footer {
 
 
 /* Media Queries */
+/* Media queries consist of an optional media type and can, as of the CSS3 specification, contain zero or more expressions, expressed as media features, which resolve to either true or false. The result of the query is true if the media type specified in the media query matches the type of device the document is being displayed on and all expressions in the media query are true. This helps to make the page responsive and basically works as a seprate stylesheet */
+
 @media only screen and (max-width: 768px) {
     
     header #branding, 
@@ -271,8 +276,12 @@ footer {
        display: block; 
     }
   
-    nav ul, nav:active ul{      
-        display: none;
+    iframe {
+        width 100%;
+    }
+    
+    nav ul, nav:active ul{        /* This segment of code helps to create the responsive navigation header when the screen gets maller */ 
+        display: none;             
         z-index: 1000;
         position:relative;
         padding: 20px;
@@ -283,11 +292,11 @@ footer {
         border-radius: 3px 0 3px 3px;
     }
     
-    
    
     .social i {
  			font-size: 290%;
  		}
+    
     
     #googleMap {
         
@@ -311,7 +320,7 @@ footer {
     margin-bottom: 50px;
     margin-top: 50px;
 }
- 
+ /* box shadow effect for polaroid image. Done by adding darker colour to each of the edges */
 .polaroid img {
   border: 10px solid #fff;
   border-bottom: 45px solid #fff;
@@ -334,9 +343,11 @@ footer {
         height: 200px;
     }
 
+/* Tilt animation is created with a ten degree turning rotate style while the speed of the transition happens within a second */
+
 .polaroid {
   -webkit-transition: all 0.7s ease;
-     -moz-transition: all 0.7s ease;
+     -moz-transition: all 0.7s ease;      
        -o-transition: all 0.7s ease;
       -ms-transition: all 0.7s ease;
           transition: all 0.7s ease;
@@ -371,12 +382,12 @@ footer {
     display: inline-block;
     
 }
-
+/* This is the animation used for the spinning premier league badges.  */
 .teams img {
      -webkit-animation-name: spinner; 
     -webkit-animation-timing-function: linear; 
-    -webkit-animation-iteration-count: infinite; 
-    -webkit-animation-duration: 9s; 
+    -webkit-animation-iteration-count: infinite;          /* how long the spin goes on for */
+    -webkit-animation-duration: 9s;                      /* duration of animation spin */
     animation-name: spinner; 
     animation-timing-function: linear; 
     animation-iteration-count: infinite; 
@@ -395,7 +406,7 @@ footer {
     } 
     to 
     { 
-        -moz-transform: rotateY(-360deg); 
+        -moz-transform: rotateY(-360deg);    /* This code specifies how far the image spins, in this case it is a 360 degree spin */
         -ms-transform: rotateY(-360deg); 
         transform: rotateY(-360deg); 
     
@@ -403,6 +414,7 @@ footer {
 }
 
 /*buttons for link to fifa website*/
+/* the buttons on the fifa page are styled to be a interactive appealing piece of animation */
 
 .btn {
     font-family: arial;
@@ -451,6 +463,8 @@ footer {
     transition: .5s;
     transition-delay: .4s;
 }
+
+/*  hover box is a graphical control element that is activated when the user moves or "hovers" the pointer over its trigger area, usually with a mouse, but also possible using a digital pen. In this case the animation starts and ends when the mouse is either on or off the element  */ 
 
 .btn:hover {
     

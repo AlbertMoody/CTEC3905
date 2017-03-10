@@ -1,119 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width">
-        <title>TGR | Welcome</title>
-        <link href="style.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet"/>
-       
-        <style>
-        
-        </style>
-    </head>
-    <body>
-        
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <h1><span class="highlight">TGR</span> THE GAME REVIEWER</h1>
-                </div>
-                <nav>
-                    <a herf="#" id="menu-icon"></a>
-                    <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="overwatch.html">Overwatch</a></li>
-                        <li><a href="fifa17.html">Fifa</a></li>
-                         <li><a href="destiny.html">Destiny</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
-        <section id="newsletter">
-            <div class="container">
-                <h1>Get Notifications</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="button_1">Subscribe</button>
-                </form>
-                
-            </div>
-        </section>
-        
-  <section>    
-    <div class="slideshow-container">
-            <div class="mySlides fade">
-            <img src="images/overwatch.jpg" style="width:100%">
-            
-        </div>
 
-        <div class="mySlides fade">
-            <img src="images/fifa.jpg" style="width:100%">
-           
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>TGR | Welcome</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+</head>
 
-        <div class="mySlides fade">
-            <img src="images/destiny.jpg" style="width:100%">
-                  
-  
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>   
+<body>
     
- </section>
-        
- <section id="boxes">
-      <div class="container">
-        <div class="box">
-          <img src="images/overwatchlogo.png">
-          <h3>Overwatch</h3>
-          <p>After making its debut in 2016 Overwatch has taken the gaming world by storm, winning multiple awards</p>
-        </div>
-        <div class="box">
-          <img src="images/fifaicon.png">
-          <h3>Fifa</h3>
-          <p>The Fifa franchise dominates the sports genre in gaming, drawing players in every region of the world</p>
-        </div>
-        <div class="box">
-          <img src="images/destinyicon.png">
-          <h3>Destiny</h3>
-          <p>Destiny was a huge hit back in 2014 and continues to be one of the top games, even with new contenders emerging</p>
-        </div>
+<!--For the index page we start with the header, it contains the navigation which is constructed using the unordered list and list tags. As can be seen below the whole header is contained using the class "container" this enables editing for the entire section. Withing this container we have the name of the website which uses a span tag so that i could highlight a section of the text using CSS. The id "menu-icon" is for the responsive side of the website when the user adjust the screen and is linked to a png image. Lastly the links to the pages are all connected, i have inserted a "current" class, this is for when you are viewing the active page the section will be slightly bolded compared to the other page link names.  
+-->
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">TGR</span> THE GAME REVIEWER</h1>
       </div>
-    </section>
+      <nav>
+        <a herf="#" id="menu-icon"></a>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="overwatch.html">Overwatch</a></li>
+          <li><a href="fifa17.html">Fifa</a></li>
+          <li><a href="destiny.html">Destiny</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    
+<!--The section below is to hold a simple form element with a submit button and input field so that the user can type in their email address for notfications (function doesn't actually work)  -->
+    
+  <section id="newsletter">
+    <div class="container">
+      <h1>Get Notifications</h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
 
-      <section>
-        
-<div id="googleMap" style="width:100%;height:400px;"></div>
+    </div>
+  </section>
+    
+<!-- The code section below holds the slideshow which is made with HTML and Javascript, the javascript has set rules so that the images change after a certain amount of time. Button clicks have been added to the side for cosmetic effects only. A "fade" class is added for transition effect which is highlighted in the CSS -->
+    
+  <section>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/overwatch.jpg" style="width:100%">
+      </div>
 
-<script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(52.6368778,-1.1397591999999577),
-    zoom:5,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
+      <div class="mySlides fade">
+        <img src="images/fifa.jpg" style="width:100%">
+      </div>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVUthFrXOIYoxWNvKFVU89Lz80z8UDTSE&callback=myMap"></script>
-        
-                
-        </section>
-        
-        <footer> 
-            <ul class="social">
-			     <li><a href="https://www.facebook.com/ign/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
-			     <li><a href="https://twitter.com/TwitterGaming?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
-			     <li><a href="https://www.youtube.com/channel/UCOpNcN46UbXVtpKMrmU4Abg" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
-			     <li><a href="https://www.instagram.com/explore/tags/gaming/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>	
-		    </ul>
-             <p>
-                THE GAME REVIEWER
-            </p>
-        </footer>  
-         <script type="text/javascript" src="javascript.js"></script>
-    </body>
+      <div class="mySlides fade">
+        <img src="images/destiny.jpg" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </section>
+    
+<!-- The "boxes" section is very simplistic with only images and text being used while the CSS create the spacing and postioning -->
+
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="images/overwatchlogo.png">
+        <h3>Overwatch</h3>
+        <p>After making its debut in 2016 Overwatch has taken the gaming world by storm, winning multiple awards</p>
+      </div>
+      <div class="box">
+        <img src="images/fifaicon.png">
+        <h3>Fifa</h3>
+        <p>The Fifa franchise dominates the sports genre in gaming, drawing players in every region of the world</p>
+      </div>
+      <div class="box">
+        <img src="images/destinyicon.png">
+        <h3>Destiny</h3>
+        <p>Destiny was a huge hit back in 2014 and continues to be one of the top games, even with new contenders emerging</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- The most advanced feature of the entire website is the code sectioned below. The code below is the google maps API, it makes use of third party features supplied by google themselves, the code is an example of how it works and how the API is enabled using a API key. Javascript is one gives the google maps API its functionality -->   
+    
+  <section>
+    <div id="googleMap" style="width:100%;height:400px;"></div> <!-- identifier for the google maps code -->
+
+    <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(52.6368778, -1.1397591999999577),
+          zoom: 5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+      }
+    </script>  <!--the co-ordinates and zoom state where the map will be positioned when the page is loaded-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVUthFrXOIYoxWNvKFVU89Lz80z8UDTSE&callback=myMap"></script> <!-- The API key supplied by google  -->
+
+  </section>
+    
+<!-- The footer is the last element of the homepage. The footer contains icons which link the external social media pages, the icons was not created by myself as it is the widely known font-awesome icon templates that have already been created for use. Creating the icons in CSS would be near impossible so font-awesome is the next option for displaying the website themed icons  -->
+    
+  <footer>
+    <ul class="social">
+      <li><a href="https://www.facebook.com/ign/" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
+      <li><a href="https://twitter.com/TwitterGaming?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCOpNcN46UbXVtpKMrmU4Abg" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
+      <li><a href="https://www.instagram.com/explore/tags/gaming/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>
+    </ul>
+    <p>
+      THE GAME REVIEWER
+    </p>
+  </footer>
+  <script type="text/javascript" src="javascript.js"></script> <!--Link to the Javascript file that controls the timer for the slideshow -->
+</body>
+
 </html>
+
+<!-- NOTE: As the header and footer are the same throught the whole website i while only be referencing them in this index html document -->
