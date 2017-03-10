@@ -52,6 +52,13 @@
 
 <p>The footer links have been adjusted to suit the selected icon on each page. For the next commits the intial designs with be added to this README.md file </p>
 
+<h2>Thirteenth commit</h2>
+
+<p> For this commit the code has been cleaned up and i've added comments alongside some of the code </p>
+
+<h2>Fourteenth commit</h2>
+
+<p> screenshots of the website have been added</p>
 
  <h1>Wireframes/Intial Designs</h1>
  
@@ -71,7 +78,12 @@
  
  <p>the first image is a simplified look at how the mobile view of the website would look like and the imahe beneth is a more detailed look at the page and all its contents, this is subject to chage as development goes on</p>
 
- <h3>Tablet view</h3>
+ <h3>Screenshots</h3>
  
+ <img src="images/screenshot1.png">
+ 
+ <img src="images/screenshot2.png">
+ 
+ <p>Both screenshots shown about is the website in its optimal view</p> 
  
  
